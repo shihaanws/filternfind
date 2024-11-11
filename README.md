@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/shihaanws/nextjs-dashboard-app/blob/main/PageLab%20(1).png" alt="Alt text" />
+  <img src="https://github.com/shihaanws/filternfind/blob/master/public/logo.png" alt="Alt text" />
 </p>
 
 <p align="center">
