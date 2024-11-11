@@ -5,7 +5,7 @@ import KeywordFilter from "./filters/KeywordFilter";
 import PriceFilter from "./filters/PriceFilter";
 import SortFilter from "./filters/SortFilter";
 
-const Filters = () => {
+export default function Filters (){
   return (
     <>
       <Header />
@@ -23,4 +23,3 @@ const Filters = () => {
   );
 };
 
-export default Filters;

@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { setSortBy, setSortOrder } from "../../redux/itemsSlice";
 
-function SortFilter() {
+export default function SortFilter() {
   const dispatch = useDispatch();
   const { filters } = useSelector((state) => state.items);
 
@@ -27,4 +27,3 @@ function SortFilter() {
   );
 }
 
-export default SortFilter;

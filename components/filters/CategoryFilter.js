@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setCategoryFilter } from "../../redux/itemsSlice";
 import { useState } from "react";
 
-function CategoryFilter() {
+export default function CategoryFilter() {
   const dispatch = useDispatch();
   const { filters } = useSelector((state) => state.items);
   const [activeTab, setActiveTab] = useState("All");
@@ -29,5 +29,3 @@ function CategoryFilter() {
     </div>
   );
 }
-
-export default CategoryFilter;

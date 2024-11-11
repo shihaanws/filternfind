@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { setPriceRange } from "../../redux/itemsSlice";
 
-function PriceFilter() {
+export default function PriceFilter() {
   const dispatch = useDispatch();
   const { filters } = useSelector((state) => state.items);
 
@@ -56,4 +56,3 @@ function PriceFilter() {
   );
 }
 
-export default PriceFilter;

@@ -5,7 +5,7 @@ import { selectItems } from "../redux/itemsSlice";
 
 import { AnimatePresence, motion } from "framer-motion";
 
-const ItemList = () => {
+export default function ItemList() {
   const items = useSelector(selectItems);
 
   const getCategoryImage = (category) => {
@@ -56,6 +56,4 @@ const ItemList = () => {
       </AnimatePresence>
     </div>
   );
-};
-
-export default ItemList;
+}

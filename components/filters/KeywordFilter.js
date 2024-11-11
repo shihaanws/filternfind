@@ -1,7 +1,7 @@
 import { setSearch } from "@/redux/itemsSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-function KeywordFilter() {
+export default function KeywordFilter() {
   const dispatch = useDispatch();
   const { filters } = useSelector((state) => state.items);
 
@@ -49,4 +49,3 @@ function KeywordFilter() {
   );
 }
 
-export default KeywordFilter;
